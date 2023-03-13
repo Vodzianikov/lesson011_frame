@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Изучаем формы</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <img src="https://api.lorem.space/image/fashion?w=800&h=480&hash=fsxztt1n" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptas molestiae quaerat eveniet, nobis ipsum dignissimos dolorum! Quod tempora, autem velit reprehenderit dolor, rerum vero sed consectetur quas, numquam tenetur.</p>
+        <p>Earum quaerat minima modi accusantium ipsum? Numquam, itaque ea amet possimus similique quidem officia autem commodi suscipit, facilis voluptatibus maiores repellendus in odio ipsam nemo asperiores! Veritatis, laboriosam? Voluptatem, sit.</p>
+        <p>Odit illum laudantium, quibusdam aliquam repellendus esse incidunt reprehenderit tenetur. Nam mollitia explicabo, architecto et delectus molestiae magni ipsam illum officia dolores id, voluptatibus distinctio quisquam modi. Ut, eos. Libero?</p>
+        <p>Et quas quasi doloribus officia asperiores non eveniet earum minus hic saepe ratione, nihil perspiciatis porro quibusdam ad, cum laborum odio officiis quos veniam possimus? Aperiam porro neque recusandae tempora!</p>
+        <p>Nam cumque, quisquam ea nobis laboriosam ipsam vero distinctio minima dolor beatae similique voluptate adipisci magni explicabo maxime hic dignissimos quae officia illum soluta temporibus dolorem. Aliquid voluptas eaque reprehenderit!</p>
+        <hr>
+        <form action="send.html" method="GET" name="form1" novalidate>
+            <label>
+                <p class="fName">Укажите Ваше имя</p>
+                <input type="text" name="form1_name" placeholder="например Дмитрий" maxlength="25" required pattern="^[А-Яа-яЁё\s]+$">
+            </label>
+            <label for="form1_phone">
+                <p class="fPhone">Укажите Ваш телефон</p>
+            </label>
+            <input id="form1_phone" type="text" name="form1_phone" placeholder="например: +375-25-1234567" required>
+            <input type="submit" value="Оставь свои контакты">
+        </form>
+        <hr>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
